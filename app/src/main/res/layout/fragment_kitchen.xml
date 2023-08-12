@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="info.zspcompany.smarthome.fragment.kitchenFragment">
+
+
+    <Switch
+        android:id="@+id/ksw1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:text="Connect to Server"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/ksw2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="30dp"
+        android:enabled="false"
+        android:text="Kitchen Lamp1"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/ksw3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:enabled="false"
+        android:text="Kitchen Lamp2"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/ksw4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:enabled="false"
+        android:text="Kitchen fan"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/ksw5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:enabled="false"
+        android:text="Kitchen Electronic Device "
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/ksw6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:enabled="false"
+        android:text="Kitchen food Device "
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/ksw7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:enabled="false"
+        android:text="Refrigerator "
+        android:textStyle="bold" />
+
+</LinearLayout>

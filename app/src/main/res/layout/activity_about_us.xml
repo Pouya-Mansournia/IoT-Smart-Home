@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about_us"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="info.zspcompany.smarthome.activity.AboutUsActivity">
+
+    <TextView
+        android:id="@+id/tv_aboutus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="شرکت طراحان پویا هوشمند ایرانیان برای توسعه و افزایش امنیت منازل و مراکز اداری اقدام به تاسیس شرکت فنی و مهندسی نموده و در مسیر رشد و خودکفایی خانه های هوشمند قرار گرفته است.
+این شرکت برای رشد و تعالی و همچنین برای افزایش رفاه حال مصرف کنندگان عزیز اقدام به طراحی و ساخت نرم افزار کنترل سیستم های هوشمند کرده است تا بتواند از خدمات فنی و مهندسی بیشتری، به مصرف کنندگان ارایه دهد.
+این نرم افزار برای کنترل سیستم های هوشمند خانگی و یا اداری شرکت طراحی و تهیه گردیده و فقط با دستگاه های مربوطه کار میکند.در صورت هرگونه خرابی و یا راهنمایی میتوانید با کلیک بر روی دکمه های زیر با ما در ارتباط مستقیم باشد و امکانات پشیبانی شرکت بهره مند گردید.
+
+لطفا برای ارتباط با ما به شبکه اینترنت متصل شوید .....
+ " />
+
+    <Button
+        android:id="@+id/btn_tell"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_aboutus"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="تماس با ما" />
+
+    <Button
+        android:id="@+id/btn_website"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_tell"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:text="وب سایت ما" />
+
+    <Button
+        android:id="@+id/btn_telegram"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_website"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:text="کانال تلگرام" />
+
+    <Button
+        android:id="@+id/btn_instagram"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_telegram"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:text="اینستاگرام" />
+
+</RelativeLayout>

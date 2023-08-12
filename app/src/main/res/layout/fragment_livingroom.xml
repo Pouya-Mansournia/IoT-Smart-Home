@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="info.zspcompany.smarthome.fragment.livingroomFragment">
+
+    <Switch
+        android:id="@+id/Lsw1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:text="Connect to Server"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/Lsw2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="30dp"
+        android:enabled="false"
+        android:text="LivingRoom Lamp1"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/Lsw3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:enabled="false"
+        android:text="LivingRoom Lamp2"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/Lsw4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:enabled="false"
+        android:text="LivingRoom fan"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/Lsw5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:enabled="false"
+        android:text="LivingRoom Electronic Device "
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/Lsw6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:enabled="false"
+        android:text="LivingRoom food Device "
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/Lsw7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:enabled="false"
+        android:text="LivingRoom Other Device "
+        android:textStyle="bold" />
+    <Switch
+        android:id="@+id/Lsw8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:enabled="false"
+        android:text="LivingRoom Audio/TV "
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+
